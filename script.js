@@ -7,7 +7,7 @@ let cnt = document.getElementById("skor");
 
 function submit(){
     if(answer.value == ans) {alert("benar!!\nttp ilm padi"); cnt++;}
-    else alert("salah kocak,\nyg bener = " +ans);
+    else alert("salah tapi ngga kocak kok,\nyg bener = " +ans);
     clearTimeout(mTo);
     location.reload();
 }
